@@ -1,0 +1,67 @@
+.seccion{
+    font-family: Agency FB;
+    font-size: 32px;
+}
+.titulo2 {
+    font-family: Agency FB;
+    font-size: 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.efecto:focus-within {
+    border-bottom: none;
+    background-color: #F3E5AB;
+}
+
+.efecto:hover {
+    background-color: #f5eed1;
+}
+
+.celda {
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3;
+    border-left-color: #FE8812;
+    border-width: 11px;
+}
+
+.titulo3 {
+    font-family: Agency FB;
+    color: #ED7D31;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.autor {
+    font-family: "Agency FB";
+}
+
+.tipo {
+    font-family: "Agency FB";
+    font-size: 18px;
+}
+
+.btn1{
+    width:70%;
+    padding: 5px;
+    margin: 2px;
+    font-size: 16px;
+    border: 3px solid #ff8b07;
+    color:black;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%,#ff8b07 50%);
+    background-size: 203%;
+    background-position: left;
+    transition: background-position 0.5s;
+    border-radius: 20px;
+}
+
+.btn1:hover{
+    background-position: right;
+    color:white;
+    font-weight: 200;
+}

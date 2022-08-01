@@ -1,0 +1,72 @@
+.titulo {
+    font-size: 24;
+    font-family: Agency FB;
+    color: #ED7D31
+}
+
+.autor {
+    font-size: 17;
+    font-family: Agency FB;
+}
+
+.info {
+    font-size: 20;
+    font-family: Agency FB;
+}
+
+.desc {
+    font-size: 19;
+    font-family: Agency FB;
+}
+
+.inputBx input[type="button"] {
+    background: #ED7D31;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-family: Agency FB;
+}
+
+.inputBx input[type="button"]:hover {
+    background: #fff;
+    color: #ED7D31;
+    border: 2px solid #ED7D31;
+}
+
+.acceso input[type="button"] {
+    background: #2fdb63;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-family: Agency FB;
+}
+
+.acceso input[type="button"]:hover {
+    background: #fff;
+    color: #2fdb63;
+    border: 2px solid #2fdb63;
+}
+.celda {
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3;
+    border-left-color: #FE8812;
+    border-width: 11px;
+}
+.seccion{
+    font-family: Agency FB;
+    font-size: 32px;
+}

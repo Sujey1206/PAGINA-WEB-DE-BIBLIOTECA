@@ -1,0 +1,25 @@
+.enlace{
+    text-decoration:none; 
+    color: black;
+    font-size: 25px;
+}
+.seleccion:hover{
+    font-size: 26px;
+    color: black; 
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.celda:hover{
+    background-color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    0%   {background-color: #f7dcb5;}
+    25%  {background-color: #F8C471;}
+    50%  {background-color: #F5B041;}
+    75%  {background-color: #F8C471;}
+    100% {background-color: #f7dcb5;}
+}

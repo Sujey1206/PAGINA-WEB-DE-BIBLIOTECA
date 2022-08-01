@@ -1,0 +1,18 @@
+.titulo{
+    font-family: Agency FB;
+    font-size: 26px;
+    text-decoration:none; 
+    font-weight:3px;
+    color: #FE8812;
+}
+.desc{
+    font-size: 20px;
+}
+.celda{
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3;
+    border-left-color: #FE8812;
+    border-width: 11px;
+}

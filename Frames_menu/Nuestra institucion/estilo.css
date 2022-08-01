@@ -1,0 +1,49 @@
+.enlace{
+    text-decoration:none; 
+    color: black;
+    font-size: 25px;
+}
+
+.seleccion:hover{
+    font-size: 26px;
+    color: black; 
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.btn{
+    margin:10px;
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#ED7D31;
+    border:0px;
+    width:80px;
+    height:25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: white;
+    color: #ED7D31;
+    border-radius: 20px;
+    border: 2px solid #ED7D31;
+    cursor: pointer;
+}
+
+.celda:hover{
+    background-color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes example {
+    0%   {background-color: #f7dcb5;}
+    25%  {background-color: #F8C471;}
+    50%  {background-color: #F5B041;}
+    75%  {background-color: #F8C471;}
+    100% {background-color: #f7dcb5;}
+}
